@@ -1,0 +1,141 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between elements */
+    padding: 10px;
+}
+
+.text-input, .dropdown, .submit-button {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.text-input {
+    width: 100px; /* Adjust width as needed */
+}
+
+.dropdown {
+    width: 120px; /* Adjust width as needed */
+}
+
+.submit-button {
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+.container {
+    position: relative; /* Ensure container is positioned */
+    width: 100%; /* Adjust width as needed */
+    height: 50px; /* Adjust height as needed */
+    /* Additional styles for the container */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the container stretches to at least the height of the viewport */
+}
+
+.container {
+    flex: 1; /* Allow the container to grow to fill remaining space */
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 20px;
+}
+
+.buttons {
+    display: flex;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin-left: 10px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+    
+    .btn {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .btn {
+        width: 80%;
+    }
+}
+
+
+
+
